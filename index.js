@@ -15,6 +15,8 @@ router.get('/', (req, res) => {
   res.json({ message: 'hooray! welcome to our api!' }); // hola alex
 });
 
+//LUIS
+
 app.use('/api', router);
 
 

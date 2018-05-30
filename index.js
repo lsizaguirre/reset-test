@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 const port = process.env.PORT || 8080;
 
-const router = express.Router(); // get an instance of the express Router
+const router = express.Router();
 
 
 router.get('/', (req, res) => {
